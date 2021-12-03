@@ -60,7 +60,7 @@ Esse Projeto é um projeto Acadêmico realizado na faculdade UNICEUB na máteria
 ## Links Importantes
 
  - [Azure DevOps do Projeto](https://dev.azure.com/SmartExpensesProject/Smart%20Expenses)
- - [Repositorio Back-End](https://github.com/matiassingers/awesome-readme)
+ - [Repositorio Back-End](https://github.com/HelioHD/smart-api-projeto)
  - [Repositorio Front-End](https://github.com/manuteu/smart-expenses-app)
 
 
