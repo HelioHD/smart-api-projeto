@@ -76,7 +76,7 @@ Clone o Projeto ou Baixe
 Vá para o diretorio do projeto 
 
 ```bash
-  cd my-project
+  cd /api/
 ```
 
 Instale as dependencias
