@@ -70,7 +70,7 @@ Esse Projeto é um projeto Acadêmico realizado na faculdade UNICEUB na máteria
 Clone o Projeto ou Baixe
 
 ```bash
-  git clone 
+  git clone https://github.com/HelioHD/smart-api-projeto.git
 ```
 
 Vá para o diretorio do projeto 
