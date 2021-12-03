@@ -93,34 +93,8 @@ app.use((erro, requisicao, resposta, proximo) => {
         })
     )
 })
-app.use('/api/rotas/auth', roteadorUser)
 
-app.use((erro, requisicao, resposta, proximo) => {
-    let status = 500
-
-    if (erro instanceof NaoEncontrado) {
-        status = 404
-    }
-
-    if (erro instanceof CampoInvalido || erro instanceof DadosNaoFornecidos) {
-        status = 400
-    }
-
-    if (erro instanceof ValorNaoSuportado) {
-        status = 406
-    }
-
-    const serializador = new SerializadorErro(
-        resposta.getHeader('Content-Type')
-    )
-    resposta.status(status)
-    resposta.send(
-        serializador.serializar({
-            mensagem: erro.message,
-            id: erro.idErro
-        })
-    )
-})
+// 5000 para subir no heroku 
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
