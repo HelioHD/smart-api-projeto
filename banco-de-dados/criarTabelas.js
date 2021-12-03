@@ -1,6 +1,6 @@
 const ModeloTabelaDespesa = require('../rotas/despesas/modeloTabelaDespesa')
 const ModeloTabelaReceita = require('../rotas/receita/modeloTabelaReceita')
-const ModeloTabelaCadastroUsuario = require('../rotas/cadastro/modeloTabelaCadastroUsuario')
+
 
 
 ModeloTabelaDespesa
@@ -13,7 +13,4 @@ ModeloTabelaDespesa
     .then(() => console.log('Tabela Receita criada com sucesso'))
     .catch(console.log)
 
-    ModeloTabelaCadastroUsuario
-    .sync()
-    .then(() => console.log('Tabela de Cadastro criada com sucesso'))
-    .catch(console.log)
+  
