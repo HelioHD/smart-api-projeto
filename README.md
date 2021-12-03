@@ -13,8 +13,7 @@ Esse Projeto é um projeto Acadêmico realizado na faculdade UNICEUB na máteria
 
 - Hélio Delfino Lopes de Alcântara (Back-End)
 - Matheus Baptista (Front-End)
-- Pedro Henrique Souza (Analista de Requisitos)
-- Gabriel Pinheiro (Banco de Dados)
+
 
 
 #### Professor Orientador
