@@ -88,19 +88,6 @@ class SerializadorReceita extends Serializador {
     }
 }
 
-class SerializadorCadastroUser extends Serializador {
-    constructor (contentType, camposExtras) {
-        super()
-        this.contentType = contentType
-        this.camposPublicos = [
-            'id',
-            'nome',
-            'email'
-        ].concat(camposExtras || [])
-        this.tagSingular = 'usuario'
-        this.tagPlural = 'usuarios'
-    }
-}
 
 class SerializadorErro extends Serializador {
     constructor (contentType, camposExtras) {
