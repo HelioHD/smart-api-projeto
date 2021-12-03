@@ -1,0 +1,10 @@
+{
+    "mysql" : {
+        "banco-de-dados":"heroku_53472f384441f4d",
+        "usuario":"b03960ebd9d535",
+        "senha": "343939a12dba1a5",
+        "host": "us-cdbr-east-04.cleardb.com",
+        "porta": "3306"
+    }
+
+}
